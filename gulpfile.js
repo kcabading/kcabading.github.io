@@ -98,6 +98,8 @@ gulp.task('copy', function() {
     ])
     .pipe(gulp.dest('vendor/devicons'))
 
+  
+
   gulp.src(['node_modules/simple-line-icons/**/*', '!node_modules/simple-line-icons/*.json', '!node_modules/simple-line-icons/*.md'])
     .pipe(gulp.dest('vendor/simple-line-icons'))
 })
